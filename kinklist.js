@@ -51,7 +51,7 @@ $(function(){
 
     LoadList();
 
-    $("#listType").change(LoadList()); 
+    $("#listType").change(LoadList); 
     
     inputKinks = {
         $columns: [],
